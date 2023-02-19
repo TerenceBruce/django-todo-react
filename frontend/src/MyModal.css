@@ -1,0 +1,19 @@
+.modal {
+   position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid rgb(108, 204, 24);
+    padding: 10px;
+    background: rgb(255, 255, 255);
+}
+.modal-backdrop {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(1, 9, 9, 0.477);
+  opacity: 0.5;
+}
